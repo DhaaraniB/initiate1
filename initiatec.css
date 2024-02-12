@@ -1,0 +1,243 @@
+*
+{
+    font-family:'Montserrat',sans-serif;
+    margin:0;
+    padding:0;
+
+}
+
+.head
+{   
+    display:flex;
+    justify-content:space-around;
+    background-color: #e4dede;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    font-size: 15px;
+    position: fixed;
+    z-index: 1;
+}
+
+.head h1
+{
+    
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.head .nav1 a
+{ 
+    text-decoration: none;
+    margin:10px;
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+}
+.head .nav1
+{
+    padding: 50px;
+}
+
+.head .nav1 a:hover{
+    color:#f809f8;
+}
+
+.head .init a{
+        text-decoration: none;
+}
+.head .init a:hover{
+    color:#f809f8;
+}
+
+
+.sub
+{
+    /*background-image: url('E:\Initiate task\png-transparent-business-font-blur-white-people-blur-thumbnail.png');*/
+    position: relative;
+    height:680px;
+    width:100%
+}
+.sub h1
+{
+    position: absolute;
+    text-align: center;
+    left:40px;
+    top: 240px;
+    color:#031ca7;
+    font-size: 64px;
+    justify-content: space-around;
+
+}
+.sub p
+{
+    position: absolute;
+    text-align: center;
+    height: 100px;
+    width: 650px;
+    left:370px;
+    top: 350px;
+    font-size:16px;
+    color:#8592d1;
+
+
+
+}
+
+.sub1
+{
+    display: flex;
+    height: 370px;
+    width: 100%;
+    top: 560px;
+    background-color:#e4dede;
+}
+.sub1 .gl section
+{
+    display: block;
+
+}
+
+.sub1 h2
+{
+    color: #021050;
+}
+
+.sub1 div
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: justify;
+    left:600px;
+    flex:1;
+ 
+}
+/*
+.prg
+{
+position: absolute;
+text-align:justify;
+height: 100px;
+width: 100%;
+left:600px;
+top: 620px;
+font-size:17px;
+color:#0b0d18; 
+}*/
+.prg
+{
+    display: block;
+    position: flex;
+
+}
+
+.prg .btn
+{
+    height: 40px;
+    width: 130px;
+    font-size: 17px;
+    font-weight: bolder;
+    background-color: #3451f5;
+    color:#e4dede;
+
+}
+.we
+{
+    position:relative;
+    height: 130px;
+}
+.we h6
+{
+    position: absolute;
+    top:30px;
+    left:650px;
+}
+.we h4
+{
+    position: absolute;
+    top:50px;
+    left:625px;
+
+}
+.glim
+{
+    position: relative;
+    justify-content: space-around;
+    display: flex;
+    height: 250x;
+    padding: 20px;
+}
+.glim div{
+    border:1px solid rgb(114, 109, 109);
+    border-radius: 5%;
+    height: 180px;
+    width: 380px;
+
+
+}
+.glims
+{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    height: 250x;
+    padding: 20PX;
+
+}
+.glims div{
+    border:1px solid rgb(114, 109, 109);
+    border-radius: 5%;
+    height: 180px;
+    width: 380px;
+
+}
+.glim a
+{
+    text-decoration: none;
+    color:#896cf1;
+}
+.glims a
+{
+    text-decoration: none;
+    color:#896cf1;
+}
+.foot
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    height: 130px;
+    background-color:#e4dede;
+    top: 1000px;
+}
+.foot h1
+{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.foot .navfoot a
+{
+    color: #696a6b;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+    white-space: 10px;
+    text-justify: inter-word;
+}
+.foot .icon i
+{
+   size: 30px; 
+}
+.foot .icon section
+{
+    display: block;
+    font-size: 18px;
+
+}
+
+
+
+
+
